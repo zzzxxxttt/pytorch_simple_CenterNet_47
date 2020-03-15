@@ -1,5 +1,7 @@
 # Pytorch simple CenterNet-47
 
+If you are looking for another CenterNet, try [this](https://github.com/zzzxxxttt/pytorch_simple_CenterNet_45)!
+
 This repository is a simple pytorch implementation of [CenterNet: Keypoint Triplets for Object Detection](https://arxiv.org/abs/1904.08189), some of the code is taken from the [official implementation](https://github.com/Duankaiwen/CenterNet).
 As the name says, this version is **simple** and **easy to read**, all the complicated parts (dataloader, hourglass, training loop, etc) are all rewrote in a simpler way.    
 By the way the support of **nn.parallel.DistributedDataParallel** is also added, so this implementation trains considerably faster than the official code.
